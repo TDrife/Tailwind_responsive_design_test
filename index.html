@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive sthsth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="border border-gray-500 p-2 border-black m-1">
+      <div class="flex justify-between items-center m-1 p-1">
+        <div class="flex items-center justify-center gap-1">
+          <div
+            class="flex text-white font-bold size-8 bg-blue-500 justify-center items-center text-[12px]">
+            P
+          </div>
+          <div class="font-bold text-[14px]">Pulse Cloud</div>
+        </div>
+
+        <div class="flex items-center font-bold text-[14px] md:hidden">
+          Mobile View
+        </div>
+        <div
+          class="hidden md:flex flex-row items-center font-bold text-[14px] gap-4">
+          <div class="flex justify-center items-center">Overview</div>
+          <div class="flex justify-center items-center">Analytics</div>
+          <div class="flex justify-center items-center">Pipelines</div>
+          <div class="flex justify-center items-center">Settings</div>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-center">
+        <hr class="w-[100%] ml-2 mr-2 border-1 border-black" />
+      </div>
+
+      <div
+        class="flex flex-col ml-1 mr-1 mt-4 mb-4 p-1 md:flex-row md:justify-between">
+        <div class="w-full md:w-[70%]">
+          <div class="text-blue-500 text-[12px] ml-2 mr-2">
+            <span class="bg-white border border-blue-500 pl-1 pr-2 font-bold"
+              >Infrastructure 2.0</span
+            >
+          </div>
+          <div
+            class="text-black text-[18px] mt-2 pl-1 pr-2 font-bold ml-2 mr-2">
+            Deploy globally with instant edge latency
+          </div>
+          <div
+            class="text-neutral-500 text-[12px] mt-2 pl-1 pr-2 font-bold ml-2 mr-2">
+            Scale services automatically across 30 worldwide regions. Built with
+            modern declarative deployment pipelines and continuous telemetry.
+          </div>
+          <div class="flex flex-col md:flex-row md:items-center">
+          <div class="flex justify-center mt-2 mb-2">
+            <button
+              class="bg-blue-500 w-full px-2 py-1 ml-2 mr-2 font-bold text-white text-[12px] border border-black">
+              Get Started
+            </button>
+          </div>
+          <div class="flex justify-center mt-2 mb-2">
+            <button
+              class="w-full px-2 py-1 ml-2 mr-2 font-bold text-black text-[12px] border border-black">
+              View Documentation
+            </button>
+          </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-between text-[12px] md:w-[25%] md:justify-center">
+            <div class="border border-black m-2 p-3">
+                <div class="flex justify-between">
+                    <span class="text-black font-bold">System Telemetry</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-neutral-500">Uptime</span>
+                    <span class="text-green-500 font-bold">99.99%</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-neutral-500">Avg Latency</span>
+                    <span class="text-blue-500 font-bold">12ms</span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-neutral-500">Edge Regions</span>
+                    <span class="text-blue-500 font-bold">30 Active</span>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3">
+      <div
+        class="flex items-start m-2 mx-4 border border-black p-3 text-[12px]">
+        <div>
+          <p class="text-black font-bold text-[14px]">
+            01.Automated Routing
+            <br />
+            <span class="text-neutral-500 text-[12px] font-semibold"
+              >Smart traffic dispatch to the geographically closest origin
+              server.</span
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex items-start m-2 mx-4 border border-black p-3 text-[12px]">
+        <div>
+          <p class="text-black font-bold text-[14px]">
+            02.Disributed Cache
+            <br />
+            <span class="text-neutral-500 text-[12px] font-semibold"
+              >Tiered edge cache nodes delivering sub-millisecond static
+              responses.</span
+            >
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex items-start m-2 mx-4 border border-black p-3 text-[12px]">
+        <div>
+          <p class="text-black font-bold text-[14px]">
+            03.Zero-Downtime Rollouts
+            <br />
+            <span class="text-neutral-500 text-[12px] font-semibold"
+              >Instant atomic route swaps ensure users never encouter error
+              pages.</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>      
+
+    </div>
+  </body>
+</html>
